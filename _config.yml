@@ -21,8 +21,8 @@ disqus_shortname: #disqus shortname
 
 user:
   name: Yein
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
+  pic: /assets/img/profile.jpg
+  picAlt: "profile"
   job: Developer
   aboutme: true # comment this out if you don't need the 'about' page.
 
