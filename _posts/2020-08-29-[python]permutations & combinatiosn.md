@@ -1,5 +1,5 @@
 ---
-title: [Python]Permutations & Combinations 
+title: (Python)Permutations & Combinations 
 categories: [dev]
 comments: true
 ---
