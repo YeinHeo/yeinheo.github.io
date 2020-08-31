@@ -59,7 +59,9 @@ print(b)
 # [('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'B'), ('B', 'C'), ('C', 'C')]
 ```
 
-+ 추가로 `**join**`을 사용하게 되면 집합의 원소를 하나의 문자열로 사용할 수 있다.
+
++ 추가로 `join`을 사용하게 되면 집합의 원소를 하나의 문자열로 사용할 수 있다.
+
 ```python
 from itertools import combinations_with_replacement
 a = ['A', 'B', 'C']
