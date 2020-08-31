@@ -52,7 +52,7 @@ print(n.values())  # dict_values([100, 120, 160, 200])
 print(n.items())  # dict_items([('red', 100), ('yellow', 120), ('green', 160), ('blue', 200)])
 ```  
 
-- for문을 사용하여 출력하기
+- for문을 사용하여 출력하기  
 ```python
 # key 값 출력
 n = {'red': 100, 'yellow': 120, 'green': 160, 'blue': 200}  
