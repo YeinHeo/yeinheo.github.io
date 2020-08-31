@@ -16,7 +16,6 @@ b = dict()
 print(type(a))  # <class 'dict'>
 print(type(b))  # <class 'dict'>
 ```
-딕셔너리
 
 ### 딕셔너리 접근
 순서가 없기 때문에 인덱스로 접근하는 것이 불가능하고, 키로 접근할 수 있다
@@ -53,6 +52,7 @@ print(n.items())  # dict_items([('red', 100), ('yellow', 120), ('green', 160), (
 ```  
 
 - for문을 사용하여 출력하기  
+
 ```python
 # key 값 출력
 n = {'red': 100, 'yellow': 120, 'green': 160, 'blue': 200}  
