@@ -12,8 +12,9 @@ comments: true
 서로 다른 n개의 원소 중에서 순서에 상관없이 r(≤n)개를 선택하는 경우의 수이며, nCr로 나타낸다.  
 조합은 순서를 고려하지 않기 때문에 순서가 다르더라도 같은 원소로 구성되었다면 같은 집합으로 분류된다.
 
-# `itertools`
+`itertools`
 파이썬에서는 순열과 조합을 쉽게 구할 수 있도록 **itertools** 모듈을 제공한다.  
+
 **itertools.permutations(iterable[, r])** : r-length tuples, all possible orderings, no repeated elements  
 
 ```
