@@ -1,6 +1,6 @@
 ---
 title: (Python)Permutations & Combinations 
-categories: [dev]
+categories: [python]
 comments: true
 ---
 
