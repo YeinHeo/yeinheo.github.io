@@ -1,6 +1,6 @@
 ---
 title: (Python)Dictionary 
-categories: [dev]
+categories: [python]
 comments: true
 ---
 
