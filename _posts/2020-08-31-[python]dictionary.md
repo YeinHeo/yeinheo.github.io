@@ -202,7 +202,9 @@ print(b)
 # [('green', 70), ('blue', 50), ('yellow', 40), ('red', 20)]
 ```
 
-> 활용
+
+
++ 활용
 
 ```python
 
