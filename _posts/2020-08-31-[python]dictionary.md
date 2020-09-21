@@ -119,3 +119,47 @@ b['green'].append(200)
 print(a)  # {'red': 100, 'yellow': 120, 'green': [160, 190]}
 print(b)  # {'red': 100, 'yellow': 120, 'green': [160, 190, 200]}
 ```
+
+### 딕셔너리 정렬
+- 키를 기준으로 딕셔너리를 정렬하는 방법
+
+```python
+# 키를 기준으로 오름차순 정렬
+
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.keys())  
+print(b)             # ['blue', 'green', 'red', 'yellow']
+  
+c = sorted(a.items())  
+print(c)             # [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
+ 
+for key, value in sorted(a.items()):  
+    print(key, ":", value)
+    
+# blue : 50
+# green : 70
+# red : 20
+# yellow : 40
+```
+
+```python
+# 키를 기준으로 오름차순 정렬(lambda 함수 사용)
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key = lambda x: x[0])  
+print(b) 
+
+# [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
+
+
+# 키 길이를 기준으로 오름차순 정렬(lambda 함수 사용)
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key = lambda x: len(x[0]))  
+print(b)
+
+# [('red', 20), ('blue', 50), ('green', 70), ('yellow', 40)]
+
+
+```
