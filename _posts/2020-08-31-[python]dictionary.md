@@ -203,6 +203,7 @@ print(b)
 ```
 
 > 활용
+
 ```python
 
 a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
