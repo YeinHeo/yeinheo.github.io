@@ -121,45 +121,99 @@ print(b)  # {'red': 100, 'yellow': 120, 'green': [160, 190, 200]}
 ```
 
 ### 딕셔너리 정렬
-- 키를 기준으로 딕셔너리를 정렬하는 방법
+
+#### 1. 키(key)를 기준으로 딕셔너리를 정렬하는 방법
+
+- 키를 기준으로 오름차순 정렬  
 
 ```python
-# 키를 기준으로 오름차순 정렬
-
 a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
   
 b = sorted(a.keys())  
-print(b)             # ['blue', 'green', 'red', 'yellow']
+print(b)   # ['blue', 'green', 'red', 'yellow']
   
 c = sorted(a.items())  
-print(c)             # [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
- 
-for key, value in sorted(a.items()):  
-    print(key, ":", value)
-    
-# blue : 50
-# green : 70
-# red : 20
-# yellow : 40
+print(c)   # [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
 ```
 
 ```python
-# 키를 기준으로 오름차순 정렬(lambda 함수 사용)
+# lambda 함수 사용
+
 a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
   
 b = sorted(a.items(), key = lambda x: x[0])  
 print(b) 
 
 # [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
+```
 
+- 키를 기준으로 내림차순 정렬
 
-# 키 길이를 기준으로 오름차순 정렬(lambda 함수 사용)
+내림차순으로 정렬하려면 reverse=True 옵션을 추가하면 된다.
+
+```python
 a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
   
-b = sorted(a.items(), key = lambda x: len(x[0]))  
+b = sorted(a.keys(), reverse=True)  
+print(b)   # ['yellow', 'red', 'green', 'blue']  
+  
+c = sorted(a.items(), reverse=True)  
+print(c)   # [('yellow', 40), ('red', 20), ('green', 70), ('blue', 50)]  
+```
+
+```python
+# lambda 함수 사용
+
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key = lambda x: x[0], reverse=True)  
 print(b)
 
-# [('red', 20), ('blue', 50), ('green', 70), ('yellow', 40)]
+# [('yellow', 40), ('red', 20), ('green', 70), ('blue', 50)]
+```
 
+#### 2. 값(value)을 기준으로 딕셔너리를 정렬하는 방법
 
+- 값을 기준으로 오름차순 정렬 
+
+```python
+# lambda 함수 이용
+
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key=lambda x: x[1])  
+print(b)
+
+[('red', 20), ('yellow', 40), ('blue', 50), ('green', 70)]
+``` 
+
+- 값을 기준으로 내림차순 정렬
+
+내림차순으로 정렬하려면 reverse=True 옵션을 추가하면 된다.
+
+```python
+# lambda 함수 이용
+
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key=lambda x: x[1], reverse=True)  
+print(b)
+
+# [('green', 70), ('blue', 50), ('yellow', 40), ('red', 20)]
+```
+
+```python
++ 활용
+
+a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
+  
+b = sorted(a.items(), key=lambda x: len(x[0]), reverse=True)  
+  
+for key, value in b:  
+    print(key, ":", value)
+    
+# yellow : 40
+# green : 70
+# blue : 50
+# red : 20
 ```
