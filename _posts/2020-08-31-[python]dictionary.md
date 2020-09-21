@@ -147,9 +147,7 @@ print(b)
 # [('blue', 50), ('green', 70), ('red', 20), ('yellow', 40)]
 ```
 
-- 키를 기준으로 내림차순 정렬
-
-내림차순으로 정렬하려면 reverse=True 옵션을 추가하면 된다.
+- 키를 기준으로 내림차순 정렬 (내림차순으로 정렬하려면 reverse=True 옵션을 추가)
 
 ```python
 a = {"red": 20, "yellow": 40, "blue": 50, "green": 70}  
@@ -187,9 +185,7 @@ print(b)
 [('red', 20), ('yellow', 40), ('blue', 50), ('green', 70)]
 ``` 
 
-- 값을 기준으로 내림차순 정렬
-
-내림차순으로 정렬하려면 reverse=True 옵션을 추가하면 된다.
+- 값을 기준으로 내림차순 정렬(내림차순으로 정렬하려면 reverse=True 옵션을 추가)
 
 ```python
 # lambda 함수 이용
