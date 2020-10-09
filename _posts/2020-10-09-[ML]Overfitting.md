@@ -7,7 +7,7 @@ comments: true
 
 ### The Problem Of Overfitting
 
-![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="470" height="230"}
+![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="450" height="200"}
 
 위 그림은 Linear Regression의 주택 가격 예측에 대한 그래프이다.
 
@@ -53,7 +53,8 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
     => y의 값에 더 많은 기여를 하는 feature에게 높은 비중을 두는 방법.
 
 
-    Example
+<Example>  
+
     아래의 오른쪽 그래프는 4차 방정식으로 cost function의 min을 구하기 위해 세타3과 세타 4에 0에 가까운 아주 작은 수를 넣어준다. 
     따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.
 
