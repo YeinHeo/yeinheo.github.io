@@ -1,5 +1,5 @@
 ---
-title: (ML)Regularization
+title: (ML)Ridge Regression
 categories: [ML]
 comments: true
 ---
