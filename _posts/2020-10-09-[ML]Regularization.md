@@ -16,7 +16,8 @@ comments: true
 
 세번째는 4차방정식으로 표현되어 여러 굴곡을 가진 곡선이 나오게 된다. 예측값과 실제값이 많이 일치하지만 training data말고 test data에 적용하기에는 overfit되었다고 한다. 또한 variance가 높다.
 
-두번째는 2차방정식으로 표현되는데 이 경우에 적합하게 최적화되었다고한다.  
+두번째는 2차방정식으로 표현되는데 이 경우에 적합하게 최적화되었다고한다. 
+
 
 ![Untitled%201.png](/assets/img/20-10-09/Regularization/Untitled%201.png)
 
@@ -58,7 +59,7 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
     ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png)
 
-```
+
 - Linear Regression
 
     $H(x)=Wx+b$
@@ -67,8 +68,8 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
     ⇒ cost값을 minimize하는 w,b를 구하는 것
     
-    ![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png =200x30)
-```
+    ![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png){: width="200" height="50"}
+
 
 # Regularization
 
