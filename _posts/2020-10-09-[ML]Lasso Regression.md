@@ -1,5 +1,5 @@
 ---
-title: (ML)Regularization
+title: (ML)Rasso Regression
 categories: [ML]
 comments: true
 ---
