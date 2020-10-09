@@ -41,13 +41,13 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 : overfitting이란 많은 feature를 가지고 있을 때, training set은 너무 잘 맞출 수 있으나 새로운 데이터에 대해서는 일반화하기 어려워 가격을 예측하지 못하는 경우를 말한다. (복잡할수록 데이터가 작을수록 overfitting되기 쉽다)
 
-### **overfitting을 줄이는 방법**
+### Overfitting을 줄이는 방법
 
-1.Reduce number of features
+1. Reduce number of features
 
     feature의 수를 줄이면 overfitting을 줄일 수 있지만 중요한 feature를 버릴 수 있다.
 
-2.Regularization
+2. Regularization
 
     모든 feature를 유지하면서 parameter의 크기를 줄여서 overfitting을 줄일 수 있다.
 
@@ -59,6 +59,7 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
     따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.
 
     ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
+
 
 
 - Linear Regression
