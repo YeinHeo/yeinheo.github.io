@@ -4,7 +4,6 @@ categories: [ML]
 comments: true
 ---
 
-# Overfitting
 
 ### The Problem Of Overfitting
 
