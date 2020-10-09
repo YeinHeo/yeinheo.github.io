@@ -8,7 +8,7 @@ comments: true
 
 ### The Problem Of Overfitting
 
-![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="500" height="250"}
+![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="470" height="230"}
 
 위 그림은 Linear Regression의 주택 가격 예측에 대한 그래프이다.
 
@@ -19,7 +19,7 @@ comments: true
 두번째는 2차방정식으로 표현되는데 이 경우에 적합하게 최적화되었다고한다. 
 
 
-![Untitled%201.png](/assets/img/20-10-09/Regularization/Untitled%201.png){: width="500" height="250"}
+![Untitled%201.png](/assets/img/20-10-09/Regularization/Untitled%201.png){: width="450" height="225"}
 
 Logistic regression에서 또한 첫번째는 1차방정식으로 최적화가 덜 되어서 underfit, 세번째는 다항방정식으로 최적화가 과하게 되어 overfit, 두번째는 2차방정식으로 적절히 최적화되어 just right 이다.
 
@@ -62,7 +62,7 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 - Linear Regression
 
-    $H(x)=Wx+b$
+    $$H(x)=Wx+b$$
 
 - Cost Function(=Loss Function) : How fit the line to our (training) data
 
@@ -73,9 +73,9 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 # Regularization
 
-![Untitled%204.png](/assets/img/20-10-09/Regularization/Untitled%204.png){: width="250" height="40"}
+![Untitled%204.png](/assets/img/20-10-09/Regularization/Untitled%204.png){: width="250" height="30"}
 
-![Untitled%205.png](/assets/img/20-10-09/Regularization/Untitled%205.png){: width="250" height="60"}
+![Untitled%205.png](/assets/img/20-10-09/Regularization/Untitled%205.png){: width="300" height="80"}
 
 parmeter 세타0에서 n까지 중에서 몇개의 parameter에 작은 값을 주면 조금 더 단순해지면서 overfitting을 줄일 수 있다. 따라서 그에 해당하는 λ식을 cost function뒤에 추가해주었다. 세타0는 상수이므로 세타1부터 n까지 제곱해준 값을 더해준다.
 
@@ -106,13 +106,13 @@ parmeter 세타0에서 n까지 중에서 몇개의 parameter에 작은 값을 �
 
 - Gradient descent
 
-    ![Untitled%208.png](/assets/img/20-10-09/Regularization/Untitled%208.png){: width="400" height="250"}
+    ![Untitled%208.png](/assets/img/20-10-09/Regularization/Untitled%208.png){: width="450" height="270"}
 
     세타j의 값은 1보다 작은 값을 계속 곱하므로 점점 작아지게 된다. 따라서 위의 과정을 통해 정규화가 된다.
 
 ### Normal equation
 
-![Untitled%209.png](/assets/img/20-10-09/Regularization/Untitled%209.png){: width="200" height="50"}
+![Untitled%209.png](/assets/img/20-10-09/Regularization/Untitled%209.png){: width="200" height="35"}
 
 위의 식은 matrix의 오차제곱항을 나타낸다. matrix X는 m x (n+1)의 크기를 가진다.
 
