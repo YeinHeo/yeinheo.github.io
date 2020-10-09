@@ -1,3 +1,9 @@
+---
+title: (ML)Regularization
+categories: [ML]
+comments: true
+---
+
 # Regularization
 
 # 1. The Problem Of Overfitting
