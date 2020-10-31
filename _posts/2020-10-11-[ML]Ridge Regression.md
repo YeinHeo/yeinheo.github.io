@@ -13,15 +13,14 @@ comments: true
 
     아마도 least squares를 사용하여 2개의 training data를 지나는 line을 그려 sum of the squared residuals을 0으로 만들 수 있다. 하지만 testing data가 많아질수록 line에 적합하지 않아 sum of the squared residuals은 매우 커지게 되고, line은 high variance를 가진다. 우리는 least squres를 통해 line이 overfit되고 high variance를 가진다는 것을 확인할 수 있다. 이와 같은 한계점으로 Ridge Regression을 통해 적합한 line을 찾는 방법을 고려하게 되었다.
 
-### Least Squares  vs  Ridge Regression
+### Least Squares   vs   Ridge Regression
 
-   Least Squares: minimize the sum of the squared residuals
+- Least Squares: minimize the sum of the squared residuals
 
-   Ridge Regression: minimize the sum of the squared residuals + λ (the slope)^2
+- Ridge Regression: minimize the sum of the squared residuals + λ (the slope)^2
 
-- Ridge Regression
 
-![Untitled.png](/assets/img/20-10-09/Regularization2/Untitled.png){: width="300" height="45"}
+![Untitled.png](/assets/img/20-10-09/Regularization2/Untitled.png){: width="360" height="60"}
 
 Ridge Regression은 실제 Y값에다 MSE를 최소화시키는데 베타 제곱을 특정한 값보다 작게 제약하는 것이다.
 
@@ -34,7 +33,9 @@ slope 제곱은 기존 least squares에 penalty를 더하고, λ는 얼마나 pe
 빨간색: Least Squres  
 파란색: Ridge Regression
 
-⇒ 위와 같이 Ridge Regression을 사용하면 variance가 적어진다.
+⇒ 위와 같이 Ridge Regression을 사용하면 variance가 적어진다.  
+
+
 
 
 - **slope**
@@ -47,7 +48,7 @@ slope 제곱은 기존 least squares에 penalty를 더하고, λ는 얼마나 pe
     - 작은 λ 값: 복잡한 모델, overfit 위험 증가
 
 
-* 만약 training set에 only one datapoint가 있다면 Least Squares는 optimal solution을 찾지 못하지만
+&#42; 만약 training set에 only one datapoint가 있다면 Least Squares는 optimal solution을 찾지 못하지만
 Ridge Regression은 cross validation 과 Ridge Regression penalty로 solution을 찾을 수 있다.
 
 ### Summary
@@ -59,3 +60,9 @@ This is done by adding the Ridge Regression Penalty to the thing that must be mi
 
 When there isn't enough data to find the Least Squares parameter estimates, 
 Ridge Regression can still find a solution with Cross Validation and Ridge Regression Penalty.
+
+
+
+### Reference 
+
+- [Regularization Part 1: Ridge (L2) Regression](https://www.youtube.com/watch?v=Q81RR3yKn30)
