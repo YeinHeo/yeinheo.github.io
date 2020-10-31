@@ -73,3 +73,10 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
     
     ![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png){: width="250" height="50"}
 
+
+
+
+### Reference
+    
+    Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Stanford University]
+    https://www.youtube.com/watch?v=u73PU6Qwl1I
