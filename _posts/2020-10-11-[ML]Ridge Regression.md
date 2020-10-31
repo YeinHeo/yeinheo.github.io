@@ -24,7 +24,7 @@ comments: true
 
    Ridge Regression은 실제 Y값에다 MSE를 최소화시키는데 베타 제곱을 특정한 값보다 작게 제약하는 것이다.
 
-   **__λ (slope)^2  ⇒ Ridge Regression Penalty__**
+   <u>**λ (slope)^2  ⇒ Ridge Regression Penalty**</u>
 
    slope 제곱은 기존 least squares에 penalty를 더하고, λ는 얼마나 penalty를 줄 것인가를 결정한다.
 
@@ -53,8 +53,8 @@ Ridge Regression은 cross validation 과 Ridge Regression penalty로 solution을
 
 ### Summary
 
-This is done by adding the __Ridge Regression Penalty__ to the thing that must be minimized
-**__the sum of the squared residuals__ + __λ (slope)^2__**
+This is done by adding the <u>Ridge Regression Penalty</u> to the thing that must be minimized
+<u>**the sum of the squared residuals__ + __λ (slope)^2**</u>
 
 λ is determined using Cross Validation.
 
