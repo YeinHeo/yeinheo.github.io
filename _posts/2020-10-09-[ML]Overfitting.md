@@ -55,11 +55,11 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 <Example>  
 
-    아래의 오른쪽 그래프는 4차 방정식으로 cost function의 min을 구하기 위해 세타3과 세타 4에 0에 가까운 아주 작은 수를 넣어준다. 
-    따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.  
+   아래의 오른쪽 그래프는 4차 방정식으로 cost function의 min을 구하기 위해 세타3과 세타 4에 0에 가까운 아주 작은 수를 넣어준다. 
+   따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.  
 
 
-   ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
+![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
 
 
 
@@ -71,12 +71,11 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
     ⇒ cost값을 minimize하는 w,b를 구하는 것  
     
-    ![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png){: width="250" height="50"}
+![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png){: width="250" height="50"}
 
 
 
 
 ### Reference
     
-    Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Stanford University]
-    https://www.youtube.com/watch?v=u73PU6Qwl1I
+   [Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Stanford University]](https://www.youtube.com/watch?v=u73PU6Qwl1I)
