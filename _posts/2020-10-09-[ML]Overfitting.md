@@ -7,7 +7,7 @@ comments: true
 
 ### The Problem Of Overfitting
 
-![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="450" height="200"}
+![Untitled.png](/assets/img/20-10-09/Regularization/Untitled.png){: width="470" height="200"}
 
 위 그림은 Linear Regression의 주택 가격 예측에 대한 그래프이다.
 
@@ -15,7 +15,7 @@ comments: true
 
 세번째는 4차방정식으로 표현되어 여러 굴곡을 가진 곡선이 나오게 된다. 예측값과 실제값이 많이 일치하지만 training data말고 test data에 적용하기에는 overfit되었다고 한다. 또한 variance가 높다.
 
-두번째는 2차방정식으로 표현되는데 이 경우에 적합하게 최적화되었다고한다. 
+두번째는 2차방정식으로 표현되는데 이 경우에 적합하게 최적화되었다고한다.  
 
 
 ![Untitled%201.png](/assets/img/20-10-09/Regularization/Untitled%201.png){: width="450" height="225"}
@@ -56,9 +56,10 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 <Example>  
 
     아래의 오른쪽 그래프는 4차 방정식으로 cost function의 min을 구하기 위해 세타3과 세타 4에 0에 가까운 아주 작은 수를 넣어준다. 
-    따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.
+    따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.  
 
-    ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
+
+   ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
 
 
 
@@ -66,9 +67,9 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
     H(x)=Wx+b
 
-- Cost Function(=Loss Function) : How fit the line to our (training) data
+- Cost Function(=Loss Function) : How fit the line to our (training) data  
 
-    ⇒ cost값을 minimize하는 w,b를 구하는 것
+    ⇒ cost값을 minimize하는 w,b를 구하는 것  
     
     ![Untitled%203.png](/assets/img/20-10-09/Regularization/Untitled%203.png){: width="250" height="50"}
 
