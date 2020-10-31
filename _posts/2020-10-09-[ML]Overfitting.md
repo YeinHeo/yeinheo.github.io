@@ -76,6 +76,6 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 
 
-### Reference
+### Reference 
     
    [Lecture 7.1 — Regularization | The Problem Of Overfitting — Machine Learning | Andrew Ng | Stanford University](https://www.youtube.com/watch?v=u73PU6Qwl1I)
