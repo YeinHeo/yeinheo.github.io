@@ -22,16 +22,16 @@ comments: true
 
 ![Untitled.png](/assets/img/20-10-09/Regularization2/Untitled.png){: width="360" height="60"}
 
-Ridge Regression은 실제 Y값에다 MSE를 최소화시키는데 베타 제곱을 특정한 값보다 작게 제약하는 것이다.
+   Ridge Regression은 실제 Y값에다 MSE를 최소화시키는데 베타 제곱을 특정한 값보다 작게 제약하는 것이다.
 
-**λ (slope)^2  ⇒ Ridge Regression Penalty**
+   **λ (slope)^2  ⇒ Ridge Regression Penalty**
 
-slope 제곱은 기존 least squares에 penalty를 더하고, λ는 얼마나 penalty를 줄 것인가를 결정한다.
+   slope 제곱은 기존 least squares에 penalty를 더하고, λ는 얼마나 penalty를 줄 것인가를 결정한다.
 
 ![Untitled%201.png](/assets/img/20-10-09/Regularization2/Untitled%201.png){: width="150" height="200"}
 
-빨간색: Least Squres  
-파란색: Ridge Regression
+   빨간색: Least Squres  
+   파란색: Ridge Regression
 
 ⇒ 위와 같이 Ridge Regression을 사용하면 variance가 적어진다.  
 
@@ -65,4 +65,5 @@ Ridge Regression can still find a solution with Cross Validation and Ridge Regre
 
 ### Reference 
 
-- [Regularization Part 1: Ridge (L2) Regression](https://www.youtube.com/watch?v=Q81RR3yKn30)
+- https://www.youtube.com/watch?v=Q81RR3yKn30  
+  [Regularization Part 1: Ridge (L2) Regression]
