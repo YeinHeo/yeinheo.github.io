@@ -53,13 +53,13 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
     => y의 값에 더 많은 기여를 하는 feature에게 높은 비중을 두는 방법.
 
 
-<Example>  
+-Example  
 
    아래의 오른쪽 그래프는 4차 방정식으로 cost function의 min을 구하기 위해 세타3과 세타 4에 0에 가까운 아주 작은 수를 넣어준다. 
    따라서 왼쪽과 같이 2차방정식으로 overfitting을 줄일 수 있다.  
 
 
-    ![Untitled 2.png](/assets/img/20-10-09/Regularization/Untitled 2.png){: width="500" height="300"}  
+   ![Untitled%202.png](/assets/img/20-10-09/Regularization/Untitled%202.png){: width="500" height="300"}  
 
 
 
@@ -78,4 +78,4 @@ bias와 variance는 reducible error로 줄일 수 있는 에러이다.
 
 ### Reference
     
-   [Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Andrew Ng | Stanford University]](https://www.youtube.com/watch?v=u73PU6Qwl1I)
+   [Lecture 7.1 — Regularization | The Problem Of Overfitting — (Machine Learning | Andrew Ng | Stanford University)](https://www.youtube.com/watch?v=u73PU6Qwl1I)
