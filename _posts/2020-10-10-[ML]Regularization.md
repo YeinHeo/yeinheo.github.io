@@ -63,8 +63,8 @@ normal equation을 사용하여 regularization을 하게 되면,
 
 
 
-### Reference
+### Reference 
 
-   [Lecture 7.2 — Regularization | Cost Function — Machine Learning | Andrew Ng | Stanford University](https://www.youtube.com/watch?v=KvtGD37Rm5I)
+- [Lecture 7.2 — Regularization | Cost Function — Machine Learning | Andrew Ng | Stanford University](https://www.youtube.com/watch?v=KvtGD37Rm5I)
 
-   [Lecture 7.3 — Regularization | Regularized Linear Regression — Machine Learning | Andrew Ng | Stanford University](https://www.youtube.com/watch?v=qbvRdrd0yJ8)
+- [Lecture 7.3 — Regularization | Regularized Linear Regression — Machine Learning | Andrew Ng | Stanford University](https://www.youtube.com/watch?v=qbvRdrd0yJ8)
