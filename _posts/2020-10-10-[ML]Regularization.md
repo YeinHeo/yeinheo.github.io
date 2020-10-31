@@ -19,8 +19,8 @@ parmeter 세타0에서 n까지 중에서 몇개의 parameter에 작은 값을 �
 => λ식을 cost function 뒤에 추가하게 되면 overfitting을 줄여 훨씬 더 단순하게 할 수 있다.  
 
 
-
-** 또한 λ의 값을 잘 선택하는 것이 중요하다.**
+  
+**또한 λ의 값을 잘 선택하는 것이 중요하다.**
 
    ![Untitled%206.png](/assets/img/20-10-09/Regularization/Untitled%206.png){: width="400" height="200"}
 
@@ -28,7 +28,7 @@ parmeter 세타0에서 n까지 중에서 몇개의 parameter에 작은 값을 �
 
 
 
-
+  
 ## Regularized linear regression
 
 ### Gradient descent algorithm ⇒ lowest point
@@ -47,7 +47,8 @@ parmeter 세타0에서 n까지 중에서 몇개의 parameter에 작은 값을 �
 
     세타j의 값은 1보다 작은 값을 계속 곱하므로 점점 작아지게 된다. 따라서 위의 과정을 통해 정규화가 된다.  
 
-
+  
+  
 ### Normal equation
 
 ![Untitled%209.png](/assets/img/20-10-09/Regularization/Untitled%209.png){: width="200" height="35"}
@@ -64,8 +65,6 @@ normal equation을 사용하여 regularization을 하게 되면,
 
 ### Reference
 
-    Lecture 7.2 — Regularization | Cost Function — [ Machine Learning | Andrew Ng | Stanford University]
-    https://www.youtube.com/watch?v=KvtGD37Rm5I
+   [Lecture 7.2 — Regularization | Cost Function — [ Machine Learning | Andrew Ng | Stanford University]](https://www.youtube.com/watch?v=KvtGD37Rm5I)
 
-    Lecture 7.3 — Regularization | Regularized Linear Regression — [ Machine Learning | Andrew Ng | Stanford University]
-    https://www.youtube.com/watch?v=qbvRdrd0yJ8
+   [Lecture 7.3 — Regularization | Regularized Linear Regression — [ Machine Learning | Andrew Ng | Stanford University]](https://www.youtube.com/watch?v=qbvRdrd0yJ8)
