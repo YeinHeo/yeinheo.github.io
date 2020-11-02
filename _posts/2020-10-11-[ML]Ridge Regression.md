@@ -65,5 +65,5 @@ Ridge Regression can still find a solution with Cross Validation and Ridge Regre
 
 ### Reference 
 
-- https://www.youtube.com/watch?v=Q81RR3yKn30  
+- [https://www.youtube.com/watch?v=Q81RR3yKn30](https://www.youtube.com/watch?v=Q81RR3yKn30)
   [Regularization Part 1: Ridge (L2) Regression]
