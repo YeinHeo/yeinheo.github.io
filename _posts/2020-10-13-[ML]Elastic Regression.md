@@ -15,7 +15,8 @@ Lasso Regression은 변수들 간의 상관관계가 클 경우에 변수 선택
 
     Elastic Net Regression = **Lasso Regression + Ridge Regression**
 
-    => good at dealing with situations when there are correlations between parameters
+    => good at dealing with situations when there are correlations between parameters  
+
 
 
 
@@ -30,8 +31,8 @@ Lasso Regression은 변수들 간의 상관관계가 클 경우에 변수 선택
 
 ### Summary
 
-    <u>Elastic-Net Regression combines the Lasso Regression Penalty with the Ridge Regression Penalty.</u>
-    It does a better job dealing with correlated parameters.
+   <u>Elastic-Net Regression combines the Lasso Regression Penalty with the Ridge Regression Penalty.</u>
+   It does a better job dealing with correlated parameters.
     
 
 
