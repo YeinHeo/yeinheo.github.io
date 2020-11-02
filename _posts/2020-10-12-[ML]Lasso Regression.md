@@ -15,11 +15,11 @@ Lasso Regression은 Ridge Regression인 **the sum of the squared residuals + λ 
 ### Lasso Regression  vs  Ridge Regression
 - Ridge Regression
 
-   ![Untitled%202.png](/assets/img/20-10-09/Regularization2/Untitled%202.png){: width="100" height="25"}
+   ![Untitled%202.png](/assets/img/20-10-09/Regularization2/Untitled%202.png){: width="100" height="45"}
 
 - Lasso Regression
 
-   ![Untitled%203.png](/assets/img/20-10-09/Regularization2/Untitled%203.png){: width="100" height="25"}  
+   ![Untitled%203.png](/assets/img/20-10-09/Regularization2/Untitled%203.png){: width="100" height="45"}  
 
 
   - 비슷한점
