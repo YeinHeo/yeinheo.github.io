@@ -57,5 +57,5 @@ The superficial difference is that Ridge Regression squares the variables and La
 
 ### Reference 
 
-- https://www.youtube.com/watch?v=NGf0voTMlcs  
+- [https://www.youtube.com/watch?v=NGf0voTMlcs](https://www.youtube.com/watch?v=NGf0voTMlcs)
   Regularization Part 2: Lasso (L1) Regression
