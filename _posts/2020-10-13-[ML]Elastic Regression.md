@@ -38,6 +38,6 @@ Lasso Regression은 변수들 간의 상관관계가 클 경우에 변수 선택
 
 ### Reference 
 
-- https://www.youtube.com/watch?v=Q81RR3yKn30  
+- [https://www.youtube.com/watch?v=Q81RR3yKn30](https://www.youtube.com/watch?v=Q81RR3yKn30)
   [Regularization Part 3: Elastic Net Regression]
   
